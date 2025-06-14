@@ -53,7 +53,8 @@ button {
 .header-container {
   display: flex;
   align-items: center;
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .logo {
@@ -102,6 +103,10 @@ button {
   font-weight: 700;
   font-size: 14px;
   color: #fff;
+}
+
+.login-btn:hover {
+  background-color: coral;
 }
 
 /* TODO ==============================/HEADER=============================== */
