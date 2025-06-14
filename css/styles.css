@@ -106,7 +106,9 @@ button {
 }
 
 .login-btn:hover {
-  background-color: coral;
+  background-color: transparent;
+  border: 1px solid #f5443b;
+  color: #f5443b;
 }
 
 /* TODO ==============================/HEADER=============================== */
