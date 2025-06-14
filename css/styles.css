@@ -1,0 +1,107 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #171836;
+}
+
+.container {
+  max-width: 1440px;
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+input {
+  font-family: inherit;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  color: currentColor;
+}
+
+/* TODO ==============================HEADER=============================== */
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  margin-right: 148px;
+}
+/* *======Navigation====== */
+.nav-list {
+  display: flex;
+  gap: 44px;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+/* *=====Lang-change===== */
+.lang-change {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.lang-name {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #d1d1d7;
+}
+
+/* *=========Button======= */
+.login-btn {
+  margin-left: 31px;
+  border-radius: 6px;
+  padding: 12px 32px;
+  width: 102px;
+  height: 41px;
+  background: #f5443b;
+
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* TODO ==============================/HEADER=============================== */
